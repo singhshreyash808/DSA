@@ -53,7 +53,9 @@ class Pattern{
     }
 }*/
 
-import java.util.Scanner;
+
+//Solid ROmbus Pattern
+/*import java.util.Scanner;
 class Pattern{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -72,4 +74,22 @@ class Pattern{
             System.out.println();
         }
     }
-}
+}*/
+
+import java.util.Scanner;
+class Pattern{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of row:");
+        int n= sc.nextInt();
+
+        for (int r=1;r<=n;r++)
+        {
+            for(int c=1;c<=n-r+1;c++){
+        System.out.print("* ");
+            }
+        
+        System.out.println();
+        }
+        }
+    }
