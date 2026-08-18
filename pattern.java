@@ -34,7 +34,9 @@ class Pattern{
 
     }
 }*/
-import java.util.Scanner;
+
+//Solid Right Angle Triangle Pattern
+/*import java.util.Scanner;
 class Pattern{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -49,4 +51,4 @@ class Pattern{
         }
 
     }
-}
+}*/
