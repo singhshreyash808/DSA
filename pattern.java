@@ -76,7 +76,8 @@ class Pattern{
     }
 }*/
 
-import java.util.Scanner;
+//Inverted right angle triangle
+/*import java.util.Scanner;
 class Pattern{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -92,4 +93,26 @@ class Pattern{
         System.out.println();
         }
         }
+    }*/
+
+   //solid pyramid pattern
+   import java.util.Scanner;
+
+   class Pattern{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of row:");
+        int n = sc.nextInt();
+
+        for (int r=1;r<=n;r++){
+            for(int s =1;s<=n-r;s++){
+                System.out.print(" ");
+            }
+            for(int c=1;c<=2*r-1;c++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
+   }
+
