@@ -170,6 +170,35 @@ class Pattern {
         }
     }
 }*/
+
+// Hollow triangle pattern
+
+import java.util.Scanner;
+
+class Pattern{
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of row:");
+        int n = sc.nextInt();
+
+        for(int r =1 ;r<=n;r++){
+            if(r==1|| r==2|| r==n){
+                for(int c=1;c<=r;c++){
+                    System.out.print("* ");
+                }
+            }
+            else{
+                System.out.print("* ");
+                for(int c=1;c<=(r-2);c++){
+                    System.out.print("  ");
+                }
+                System.out.print("* ");
+            }
+            System.out.println();   
+        }
+    }
+}
             
         
        
