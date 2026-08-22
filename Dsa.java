@@ -89,7 +89,8 @@ class Dsa{
         System.out.println("Enter the value :");
         int n = sc.nextInt();
 
-        for(int i=2;i<=n;i++){
+        for(int i=2;i*i<=n;i++)//if we take only i then no of iteration will be more so we take i*i<=n
+        {
             while(n%i==0){
                 System.out.println(i+"is a prime number");
                 n=n/i;
